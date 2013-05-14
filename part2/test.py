@@ -1,0 +1,1 @@
+select r.code as code, c.description as description, r.rel as relationship, z.description as rel_description FROM code_rel as r JOIN cbc_code as c ON r.code=c.name Join cbc_code as z ON r.rel=z.name; 
